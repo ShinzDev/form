@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  background: wheat;
+  justify-content: fle;
+}
+
+.contain {
+  padding: 20px;
+}
+.contain .contanier {
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+  background-image: url(IMG_20230301_215340_465.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 10px;
+  transition: all 1s;
+}
+@media (max-width: 390px) {
+  .contain .contanier {
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+  }
+}
+@media (max-width: 834px) {
+  .contain .contanier {
+    height: 400px;
+  }
+}
+.contain .contanier h1 {
+  color: #fff;
+}
+@media (max-width: 390px) {
+  .contain .contanier h1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .contain .contanier h1 {
+    font-size: 23px;
+  }
+}
+.contain .contanier form {
+  align-items: center;
+  margin-top: 3rem;
+}
+@media (max-width: 390px) {
+  .contain .contanier form {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  .contain .contanier form {
+    display: grid;
+    justify-content: center;
+  }
+}
+.contain .contanier label {
+  font-size: 25px;
+  font-weight: bold;
+  color: wheat;
+}
+.contain .contanier input {
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  border: none;
+  border-radius: 10px;
+}
+@media (max-width: 390px) {
+  .contain .contanier input {
+    width: 150px;
+  }
+}
+@media (max-width: 375px) {
+  .contain .contanier input {
+    width: 200px;
+  }
+}
+.contain .contanier .btn {
+  width: 21rem;
+  height: 2.5rem;
+  font-size: 18px;
+  justify-content: end;
+  text-align: center;
+  margin-left: 60px;
+  color: rgb(255, 255, 255);
+  background: #333030;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  align-items: center;
+}
+.contain .contanier .btn:hover {
+  transform: translateY(-5px);
+}
+@media (max-width: 390px) {
+  .contain .contanier .btn {
+    width: 11rem;
+  }
+}
+@media (max-width: 375px) {
+  .contain .contanier .btn {
+    margin-left: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
